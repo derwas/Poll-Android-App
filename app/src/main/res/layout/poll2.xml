@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mallannius.poll.MainActivity"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic">
+
+    <TextView
+        android:id="@+id/Q4"
+        android:text="What is your marital status?"
+        android:textSize="10pt"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="42dp"/>
+
+    <RadioGroup
+        android:id="@+id/marital_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <RadioButton
+            android:id="@+id/radio4"
+            android:text="Single"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"/>
+
+        <RadioButton
+            android:id="@+id/radio5"
+            android:text="Married"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"/>
+
+        <RadioButton
+            android:id="@+id/radio3"
+            android:text="Other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/Q5"
+        android:text="How many children do you have?"
+        android:textSize="10pt"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="42dp"/>
+
+    <Spinner
+        android:id="@+id/children"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Q6"
+        android:layout_alignStart="@+id/Q6"
+        android:layout_above="@+id/Q6"
+        android:layout_below="@+id/marital_status"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"/>
+
+    <TextView
+        android:id="@+id/Q6"
+        android:text="What is your occupation?"
+        android:textSize="10pt"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="42dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"/>
+
+    <Spinner
+        android:id="@+id/occupation"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="20dp">
+    </Spinner>
+
+    <Button
+        android:id="@+id/next2"
+        android:text="Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/occupation"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="right"/>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic">
+
+    <TextView
+        android:text="Statistics options"
+        android:textStyle="bold"
+        android:textColor="@color/brown"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/option1"
+        android:text="Age + Gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/option2"
+        android:text="Age + Gender + Occupation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/option3"
+        android:text="Voters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center" />
+    <Button
+        android:id="@+id/option4"
+        android:text="Candidates stats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/map1"
+    tools:context="com.example.mallannius.poll.MainActivity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:text="Galway West Election Poll"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="@color/dark_green"
+        android:textSize="13pt"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"/>
+
+    <Button
+        android:id="@+id/viewdb"
+        android:text="Database"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:layout_alignLeft="@+id/Poll"
+        android:layout_alignStart="@+id/Poll"
+        android:layout_marginTop="46dp" />
+
+    <Button
+        android:id="@+id/Poll"
+        android:text=" Start Poll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/viewdb"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/Statistics"
+        android:text=" View Statistics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:layout_below="@+id/Poll"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
