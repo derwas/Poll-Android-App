@@ -3,7 +3,7 @@ I. Description
 
 This project is an Android mobile application that creates a poll related to Irish elections in 2016.
 
-I. XML File list
+II. XML File list
 -----------------
 activity_main.xml          contains the layout of the first screen of the poll application
 poll.xml                   contains the layout of the first part of the poll
@@ -22,7 +22,7 @@ statsresult2.xml           contains the layout of the stats result by number of 
 AndroidManifest.xml        contains all the intents   
 
 
-II. Java File list
+III. Java File list
 -----------------
 MainActivity.java          contains the first screen of the poll application
 Poll.java            	   contains the first part of the poll
@@ -39,7 +39,7 @@ Statsresultjob.java        contains the layout of the result of the stats by age
 Statsresult1.java          contains the stats result by number of participants who will/will not vote
 Statsresult2.java          contains the stats result by number of participants who will vote to a particular candidate
 
-III. Execution
+IV. Execution
 --------------
 After running the application, the user will see the main menu as follows:
 
